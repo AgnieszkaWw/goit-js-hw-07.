@@ -6,6 +6,6 @@ categoryItems.forEach(categoryItem => {
 	const categoryTitle = categoryItem.querySelector("h2").textContent;
 	const categoryElements = categoryItem.querySelectorAll("ul li");
 	const categoryElementCount = categoryElements.length;
-	console.log('categoryTitle: ');
-	console.log('categoryElementCount: ');
+	console.log('categoryTitle: ' , categoryTitle);
+	console.log('categoryElementCount: ' , categoryElementCount);
 });
